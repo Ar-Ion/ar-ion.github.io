@@ -8,7 +8,7 @@ A showcase of my major robotics, aerospace, and software engineering projects.
 
 ## Robotics Projects
 
-### Caltech Racer Autonomous Race Car (2024)
+### Caltech Racer Autonomous Race Car (2025)
 *Research Engineer*
 
 High-speed autonomous racing on controlled environments (race tracks) and active participation in the Indie Autonomous Challenge international competition.
@@ -22,7 +22,7 @@ High-speed autonomous racing on controlled environments (race tracks) and active
 **Highlights**: 
 - Fully autonomous race car, able to overtake and make decisions in real time
 - Speeds up to 300km/h, accelerations up to 1.5g
-- Sensor suite consists of 3 LiDARs, 6 cameras, 3 IMUs, 2 RTK GPS, 2 Radars, 4 wheel odometry sensors
+- Sensor suite consisting of 3 LiDARs, 6 cameras, 3 IMUs, 2 RTK GPS, 2 Radars, 4 wheel odometry sensors
 - Non-linear controller, MPC, and offline global optimizer for motion planning
 - LiDAR-based and YOLO competitor car detection and tracking
 - Exciting SOTA research coming soon (ICRA'26)
