@@ -1,0 +1,270 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import "minima";
+
+// Light mode variables
+:root {
+  --bg-color: #ffffff;
+  --text-color: #24292f;
+  --header-bg: #141c31;
+  --border-color: #d1d9e0;
+  --accent-color: #141c31;
+  --secondary-bg: #f6f8fa;
+  --card-bg: #ffffff;
+  --shadow: rgba(0, 0, 0, 0.1);
+}
+
+// Enhanced typography
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-weight: 300;
+  line-height: 1.6;
+  background-color: var(--bg-color) !important;
+  color: var(--text-color) !important;
+}
+
+// Header styling
+.site-header {
+  border-top: 5px solid var(--accent-color) !important;
+  background-color: var(--header-bg) !important;
+  box-shadow: 0 2px 4px var(--shadow);
+  border-bottom: 1px solid var(--border-color);
+}
+
+// Fix wrapper inside header
+.site-header .wrapper {
+  background-color: transparent !important;
+}
+
+.site-title {
+  color: white !important;
+  font-weight: 300;
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+}
+
+.site-avatar {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+// Navigation styling
+.site-nav .page-link {
+  color: white !important;
+  font-weight: 300;
+  margin-left: 2rem;
+  transition: color 0.3s ease;
+}
+
+.site-nav .page-link:hover {
+  color: #e6e6e6 !important;
+  text-decoration: none;
+}
+
+// Footer styling
+.site-footer {
+  background-color: var(--header-bg) !important;
+  border-top: 1px solid var(--border-color);
+  color: white !important;
+  
+  .wrapper {
+    background-color: transparent !important;
+  }
+  
+  .footer-heading, .contact-list, .social-media-list, .footer-col-wrapper {
+    color: white !important;
+  }
+  
+  a {
+    color: white !important;
+    
+    &:hover {
+      color: #e6e6e6 !important;
+    }
+  }
+  
+  // Target ALL elements in footer with universal selector
+  * {
+    color: white !important;
+  }
+  
+  // Specific override for email links
+  .u-email,
+  a.u-email,
+  .contact-list a,
+  .contact-list .u-email {
+    color: white !important;
+    
+    &:visited {
+      color: white !important;
+    }
+    
+    &:hover {
+      color: #e6e6e6 !important;
+    }
+  }
+}
+
+// Main content
+.page-content {
+  padding: 2rem 0;
+  background-color: var(--bg-color);
+}
+
+// Home page specific styling
+.home {
+  h1 {
+    color: var(--text-color) !important;
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+  }
+  
+  h2 {
+    color: var(--text-color) !important;
+    font-size: 1.8rem;
+    margin-top: 2rem;
+    border-bottom: 2px solid var(--accent-color);
+    padding-bottom: 0.5rem;
+  }
+  
+  .intro-text {
+    font-size: 1.2rem;
+    color: var(--text-color);
+    margin: 1.5rem 0;
+  }
+}
+
+// Override minima theme defaults
+.wrapper {
+  background-color: var(--bg-color);
+}
+
+.site-footer {
+  background-color: var(--header-bg) !important;
+  border-top: 1px solid var(--border-color);
+  
+  .footer-heading, .contact-list, .social-media-list {
+    color: var(--text-color) !important;
+  }
+  
+  a {
+    color: var(--accent-color) !important;
+    
+    &:hover {
+      color: #79c0ff !important;
+    }
+  }
+}
+
+// Markdown content
+h1, h2, h3, h4, h5, h6 {
+  color: var(--text-color) !important;
+}
+
+a {
+  color: var(--accent-color) !important;
+  
+  &:hover {
+    color: #79c0ff !important;
+  }
+}
+
+code {
+  background-color: var(--secondary-bg) !important;
+  color: var(--text-color) !important;
+  border: 1px solid var(--border-color) !important;
+}
+
+pre {
+  background-color: var(--secondary-bg) !important;
+  border: 1px solid var(--border-color) !important;
+  
+  code {
+    background-color: transparent !important;
+    border: none !important;
+  }
+}
+
+blockquote {
+  background-color: var(--secondary-bg) !important;
+  border-left: 4px solid var(--accent-color) !important;
+  color: var(--text-color) !important;
+}
+
+// Table styling
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1rem 0;
+  box-shadow: 0 2px 4px var(--shadow);
+  background-color: var(--card-bg);
+  
+  th, td {
+    border: 1px solid var(--border-color) !important;
+    padding: 12px;
+    text-align: left;
+    color: var(--text-color) !important;
+  }
+  
+  th {
+    background-color: var(--secondary-bg) !important;
+    font-weight: 600;
+    color: var(--accent-color) !important;
+  }
+  
+  tr:nth-child(even) {
+    background-color: var(--secondary-bg) !important;
+  }
+}
+
+// Project cards
+.project-card {
+  background: var(--card-bg);
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin: 1.5rem 0;
+  box-shadow: 0 2px 8px var(--shadow);
+  border-left: 4px solid var(--accent-color);
+  transition: transform 0.3s ease;
+  
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px var(--shadow);
+  }
+  
+  h3 {
+    color: var(--text-color);
+    margin-top: 0;
+  }
+  
+  .project-meta {
+    color: #7d8590;
+    font-style: italic;
+    margin-bottom: 1rem;
+  }
+}
+
+// Center images and their captions
+div[align="center"] {
+  text-align: center;
+  
+  img {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  em {
+    display: block;
+    margin-top: 0.5rem;
+    font-style: italic;
+    color: #666;
+  }
+}

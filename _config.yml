@@ -1,0 +1,54 @@
+# Site settings
+title: Arion Zimmermann
+email: arion@innovazion.ch
+description: >-
+  Robotics Researcher specializing in autonomous systems, perception algorithms, 
+  and aerospace applications. Currently at Caltech working on autonomous race cars.
+baseurl: ""
+url: "https://ar-ion.github.io"
+github_username: Ar-Ion
+linkedin_username: arion-zimmermann
+google_scholar_username: arion-zimmermann
+avatar: "assets/images/profile.png"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Navigation
+header_pages:
+  - research.md
+  - projects.md
+
+# Contact info
+phone: "+1 (323) 577-3722"
+location: "Switzerland / California"
+
+# Academic info
+current_position: "Associate Research Engineer, Caltech"
+education: "MSc Electrical Engineering, EPFL"
+research_interests: "Autonomous Systems, Perception, Motion Planning, Aerospace Robotics"
+
+# SEO
+author: Arion Zimmermann
+twitter:
+  username: 
+  card: summary
+
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
