@@ -8,10 +8,7 @@ baseurl: ""
 url: "https://ar-ion.github.io"
 github_username: Ar-Ion
 linkedin_username: arion-zimmermann
-author:
-  name: Arion Zimmermann
-  email: arion@innovazion.ch
-  avatar: "/assets/images/profile.png"
+avatar: "/assets/images/profile.png"
 
 # Build settings
 markdown: kramdown
@@ -22,9 +19,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
 
-# Minima 3.0+ settings
 minima:
-  skin: dark
   social_links:
     - { platform: github, user_url: "https://github.com/Ar-Ion" }
     - { platform: linkedin, user_url: "https://linkedin.com/in/arion-zimmermann" }
