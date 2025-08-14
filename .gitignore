@@ -1,2 +1,4 @@
 assets/archives
 _site
+_includes
+Gemfile.lock
