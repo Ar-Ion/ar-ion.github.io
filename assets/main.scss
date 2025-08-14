@@ -179,9 +179,10 @@ body {
 .site-footer {
   background-color: var(--header-bg) !important;
   border-top: 1px solid var(--border-color);
+
   
   .footer-heading, .contact-list, .social-media-list {
-    color: var(--text-color) !important;
+    color: white !important;
   }
   
   a {
