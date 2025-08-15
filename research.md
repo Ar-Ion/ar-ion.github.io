@@ -30,6 +30,12 @@ Extended GLIM for offline mapping of the racetrack and added support for RTK GPS
 
 Designed the modular perception subsystem of Caltech Racer to track competing race cars using LiDARs and additional sensors. Modules were designed to work on either CPU with OpenMP support or GPU. Individual state estimates are cross-checked with chi-squared tests and incorporated into an EKF with feed-forward accelerations derived from an inferred trajectory.
 
+![Laguna Seca LiDAR Map](../assets/images/perception.png)
+
+<div align="center" style="margin-bottom: 1em;">
+<i>Real-time perception output (50hz). Red control dots on competitor car for pose determination.</i>
+</div>
+
 ### Pose Estimation of Unknown Tumbling Bodies (2024)
 **Supervisor**: Prof. Soon-Jo Chung (Caltech) & Prof. Colin Jones (EPFL)
 

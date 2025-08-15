@@ -126,6 +126,8 @@ Student-led rocketry association, designing sounding, bi-liquid and hybrid rocke
 
 <div style="text-align: center; margin: 1.5rem 0;">
   <img src="{{ '/assets/images/rocket.png' | relative_url }}" alt="Rocket Avionics" style="max-width: 100%; height: auto;">
+  <br>
+  <small style="color: #666; font-style: italic;">Photo credit: Erik Uythoven</small>
 </div>
 
 **Highlights**:
