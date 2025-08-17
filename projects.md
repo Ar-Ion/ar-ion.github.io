@@ -11,7 +11,7 @@ A showcase of my major robotics, aerospace, and software engineering projects.
 ### Caltech Racer Autonomous Race Car (2025)
 *Research Engineer*
 
-High-speed autonomous racing on controlled environments (race tracks) and active participation in the Indie Autonomous Challenge international competition.
+High-speed autonomous racing on controlled environments (race tracks) and active participation in the Indy Autonomous Challenge international competition.
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin: 1.5rem 0;">
   <iframe src="https://www.youtube.com/embed/v10TQy46cms" 
@@ -28,7 +28,7 @@ High-speed autonomous racing on controlled environments (race tracks) and active
 - Exciting SOTA research coming soon (ICRA'26)
 
 **Achievements**: 
-- Third fastest lap time at the Laguna Seca Indie Autonomous Challenge competition (before spinning out 🙊)
+- Third fastest lap time at the Laguna Seca Indy Autonomous Challenge competition (before spinning out 🙊)
 
 **Contributions (perception)**:
 - Complete LiDAR-based perception stack to detect competing cars

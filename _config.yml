@@ -28,6 +28,7 @@ minima:
 header_pages:
   - research.md
   - projects.md
+  - cv.md
 
 # Contact info
 phone: "+1 (323) 577-3722"

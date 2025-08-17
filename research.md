@@ -69,7 +69,7 @@ Designed a neural network architecture with multiple ResNet layers of Sparse Sub
 
 **Report**: [Link](../assets/docs/spaceloc-report.pdf) 
 
-Developed a novel localization strategy using rotating high-bandwidth signals to generate a Doppler effect synchronous with the angle of arrival of the signal. This effect could then be used to estimate the relative angle between the mobile robot and the rotating source in a Maximum Likelihood framework, with minimal degradation from multipath effects. Multiple independent measurements of AoA could then be used to infer the position of the mobile robot.
+Developed a novel localization strategy using rotating high-bandwidth signals to generate a Doppler effect synchronous with the angle of arrival of the signal. This effect could then be used to estimate the relative angle between the mobile robot and the rotating source in a Maximum Likelihood framework, with minimal degradation from multipath effects. Multiple independent measurements of AoA could then be used to infer the position of the mobile robot. Experiments conducted on a software-defined radio.
 
 ## Power Systems
 
@@ -130,19 +130,15 @@ Designed, implemented, and tested a highly efficient 4-channel power supply for 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/MzJ2GEuEaqA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
-## Research Interests & Future Directions
-
-### Space Robotics & Autonomous Systems
-- **On-orbit servicing**: Autonomous manipulation of satellites and space debris
-- **Planetary exploration**: Advanced navigation and science autonomy for rovers
-- **Formation flying**: Coordinated control of multiple spacecraft
+## Research Interests
 
 ### Perception & State Estimation
+- **Algorithms for novel vision sensors**: Event cameras and 4D LiDARs for highly dynamic robots
 - **Multi-modal sensor fusion**: Combining vision, LiDAR, radar, and inertial sensors
-- **Robust estimation**: Algorithms that maintain performance under sensor failures
+- **Estimation over densities**: Stochastic process estimation and learning algorithms
 - **Factor graph optimization**: Efficient algorithms for large-scale SLAM problems
 
 ### Real-time Embedded Systems
 - **Low-latency control**: Sub-millisecond control loops for critical applications
-- **Fault-tolerant architectures**: Systems that gracefully handle component failures
-- **Edge computing**: Efficient deployment of AI algorithms on resource-constrained platforms
+- **Fault-tolerant architectures**: Redundant systems, safe switch-overs, failure-resilient algorithms
+- **Edge computing**: Deployment of efficient algorithms on resource-constrained platforms
