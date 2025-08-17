@@ -67,7 +67,7 @@ Led a team of more than 60 students to develop autonomous rovers for the Europea
 - Fully redundant power management system and avionics
 
 **Achievements**:
-- 3rd place at ERC2023 World Finals with special award for best robotic arm and best presentation
+- 3rd place at ERC2023 World Finals with special award for best robotic arm
 - 2nd place at ERC2022 World Finals with special award for best autonomous navigation
 - 3rd place at ERC2021 World Finals with special award for best science plan and best sample probing
 

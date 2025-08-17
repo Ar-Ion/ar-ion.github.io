@@ -133,10 +133,9 @@ Designed, implemented, and tested a highly efficient 4-channel power supply for 
 ## Research Interests
 
 ### Perception & State Estimation
-- **Algorithms for novel vision sensors**: Event cameras and 4D LiDARs for highly dynamic robots
-- **Multi-modal sensor fusion**: Combining vision, LiDAR, radar, and inertial sensors
-- **Estimation over densities**: Stochastic process estimation and learning algorithms
-- **Factor graph optimization**: Efficient algorithms for large-scale SLAM problems
+- **Perception with novel vision sensors**: Event cameras and 4D LiDARs for highly dynamic robots
+- **Multi-modal sensor fusion**: Incorporating novel modalities in sensor fusion frameworks
+- **Estimation over densities**: Stochastic process estimation and representation learning
 
 ### Real-time Embedded Systems
 - **Low-latency control**: Sub-millisecond control loops for critical applications

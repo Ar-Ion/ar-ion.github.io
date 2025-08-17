@@ -21,9 +21,9 @@ Conducted research on ultra-wideband angle-of-arrival localization strategies un
 
 I completed my MSc in Electrical Engineering at EPFL (2018-2024) with a minor in Space Technologies. My thesis work focused on pose estimation of unknown tumbling bodies under the supervision of Prof. Soon-Jo Chung at Caltech and Prof. Colin Jones at EPFL. [*More info here*](research/#pose-estimation-of-unknown-tumbling-bodies-2024).
 
-My research interests center around:
-- **Agile Autonomous Systems**: Perception algorithms for highly dynamic systems
-- **Space Robotics**: Pose estimation, localization, and navigation in extreme environments
+My interests center around:
+- **Agile Autonomous Systems**: Perception and localization algorithms for highly dynamic systems
+- **Aerospace Robotics**: Robotic systems design for extreme environments
 - **System Architecture**: High-level formalization and design of complex systems
 - **Sensor Fusion**: Multi-modal perception and state estimation
 
