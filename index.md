@@ -4,7 +4,7 @@ title: About
 permalink: /
 ---
 
-I'm Arion Zimmermann, a robotics researcher with a passion for autonomous systems and aerospace applications. My journey spans from designing rovers to developing perception algorithms for autonomous race cars, always with a focus on pushing the boundaries of what's possible in robotics for extreme environments. [**Have a look at my CV!**](/assets/docs/cv_v5.pdf){:target="_blank"}
+I'm Arion Zimmermann, a robotics researcher with a passion for autonomous systems and aerospace applications. My journey spans from designing rovers to developing perception algorithms for autonomous race cars, always with a focus on pushing the boundaries of what's possible in robotics for extreme environments. [**Have a look at my CV!**](/assets/docs/cv.pdf){:target="_blank"}
 
 ## Professional Experience
 
