@@ -109,7 +109,7 @@ Led a team of more than 60 students to develop autonomous rovers for the Europea
 
 **Contributions (as drone systems engineer)**: [Link](#epfl-xplore-drone-2023)
 
-**Technologies**: ROS, ROS2, Altium, LTSpice, LTPowerCAD, Fusion 360, C, C++, PCL, LIO-SAM, Kinematics, Nvidia Jetson Xavier/Orin, Linux, EtherCat, CANopen
+**Technologies**: ROS, ROS2, Altium, LTSpice, LTPowerCAD, Fusion 360, C, C++, PCL, LIO-SAM, Kinematics, Nvidia Jetson, Linux, EtherCat, CANopen
 
 ## Aerospace Projects
 
