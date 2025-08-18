@@ -39,7 +39,7 @@ Designed the modular perception subsystem of Caltech Racer to track competing ra
 ### Pose Estimation of Unknown Tumbling Bodies (2024)
 **Supervisor**: Prof. Soon-Jo Chung (Caltech) & Prof. Colin Jones (EPFL)
 
-**Paper**: International Aeronautical Congress 2024, Milan. [Link](https://www.arxiv.org/abs/2508.03132) 
+**Paper**: International Astronautical Congress 2024, Milan. [Link](https://www.arxiv.org/abs/2508.03132) 
 
 **Slides**: [Link](../assets/docs/coffee-slides.pdf) 
 
