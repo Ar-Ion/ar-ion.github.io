@@ -47,6 +47,11 @@ body {
   align-items: center;
 }
 
+.site-title:hover {
+  color: #cccccc !important;
+  text-decoration: none;
+}
+
 .site-avatar {
   height: 40px;
   width: 40px;
@@ -66,7 +71,7 @@ body {
 }
 
 .site-nav .page-link:hover {
-  color: #e6e6e6 !important;
+  color: #cccccc !important;
   text-decoration: none;
 }
 
